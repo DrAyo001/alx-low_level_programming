@@ -17,3 +17,7 @@ Task 7-puts_half.c is a function that prints half of a string, followed by a new
 Task 8-print_array.c is a function that prints n elements of an array of integers, followed by a new line.
 
 Task 9-strcpy.c is a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+
+Task 10-atoi.c is a function that convert a string to an integer.
+
+Task 11-keygen.c is a program that generates random valid passwords for the program 101-crackme.
