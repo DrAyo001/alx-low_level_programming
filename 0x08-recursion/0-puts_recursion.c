@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * Description: Function that prints a string,
- * followed by a new line.
+ * 0-puts_recursion
+ *
+(* Description: Function that prints a string,
+ * followed by a new line.)?
  * @s: string to be printed.
  *
  * Return: void
