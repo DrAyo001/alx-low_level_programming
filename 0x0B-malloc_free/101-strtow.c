@@ -45,7 +45,7 @@ int num_words(char *str)
 			i++;
 		}
 	}
-	return (words)
+	return (words);
 }
 /**
  * strtow - splits a new string into wods
@@ -68,9 +68,9 @@ char **strtow(char *str)
 		{
 			if ((str[i] != ' ') && (str[i] != '\0'))
 				size++;
-			else if (((str[i] == ' ') || (str[i] == '\0')) && i ** (str[i-1] != ' '))
+			else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i-1] != ' '))
 			{
-				splic[j] = (char 8)malloc(sizeof(char) * size + 1);
+				split[j] = (char 8)malloc(sizeof(char) * size + 1);
 				if (split[j] != NULL)
 				{
 					while (temp < size)
