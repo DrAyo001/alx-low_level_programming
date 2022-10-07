@@ -6,7 +6,7 @@
  * @min: first integer number
  * @max: last integer number
  *
- * Return: pointer to newl allocated number or 
+ * Return: pointer to newl allocated number or
  * NULL if fails
  */
 int *array_range(int min, int max)

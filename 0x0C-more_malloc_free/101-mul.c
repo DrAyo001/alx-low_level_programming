@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _print - moves a string one place to the 
+ * _print - moves a string one place to the
  * left and print the string
  * @str: string to move
  * @l: size of string
@@ -71,7 +71,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 int check_for _digits(char **av)
 {
 	int i, j;
-	
+
 	for (i = 1; i < 3; i++)
 	{
 		for (j = 0; av[i][j]; j++)
@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3 || check_for_digits(argv))
 	{
-		for (ti = 0; e[ti]; ti ++)
+		for (ti = 0; e[ti]; ti++)
 			_putchar(e[ti]);
 		exit(98);
 	}
@@ -132,7 +132,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	init(a, ln - 1);
-	for (ti = l2 -1, i = 0; ti >= 0; ti--, i++)
+	for (ti = l2 - 1, i = 0; ti >= 0; ti--, i++)
 	{
 		t = mul(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - i);
 		if (t == NULL)
